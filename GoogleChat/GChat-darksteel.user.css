@@ -290,6 +290,7 @@
     --activity-feed-icon-color: #1967d2;
 }*/
   :root {
+    color-scheme: dark;
     --adopt-shell-color: hsl(216, 29%, 15%);
     --primary-text-color: hsl(216, 5%, 85%);
     --secondary-text-color: hsla(216, 5%, 85%, .8);
@@ -359,4 +360,6 @@
   }
   .vrdOD .RDPZE .h8RLGf {
     fill: var(--postbar-button-icon-color);
+  }
+/* End of userscript code */
 }
