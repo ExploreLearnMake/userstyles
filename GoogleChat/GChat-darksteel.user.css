@@ -289,6 +289,7 @@
     --threaded-spaces-thread-summary-hover-color: rgba(60,64,67,0.039);
     --activity-feed-icon-color: #1967d2;
 }*/
+/* New color variables and styles */
   :root {
     color-scheme: dark;
     --adopt-shell-color: hsl(216, 29%, 15%);
