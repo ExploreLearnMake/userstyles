@@ -124,9 +124,9 @@
     --bot-catalog-card-bg-color: #fff;
     --bot-catalog-card-content-bg-color: #fff;
     --bot-pill-bg-color: #f1f3f4;
-    --message-inline-monospace-bg-color: #fafafa;
+  --message-inline-monospace-bg-color: #fafafa;
     --message-block-monospace-bg-color: #fff;
-    --message-inline-line-color: #c9c9c9;
+  --message-inline-line-color: #c9c9c9;
     --message-block-line-color: #e0e0e0;
     --message-monospace-text-color: #424242;
     --quoted-message-bg-color: #f8f9fa;
@@ -308,6 +308,8 @@
     --postbar-button-hover-icon-color: hsl(216, 34%, 95%);
     --postbar-button-hover-background-color: hsla(216, 34%, 95%, .20);
     --postbar-button-open-icon-color: hsl(216, 78%, 85%);
+    --message-inline-monospace-bg-color: hsl(216deg 29% 25%);
+    --message-inline-line-color: hsl(216deg 5% 55%);
     --wiz-menu-icon-button-focus-bg-color: hsl(216, 50%, 30%);
     --wiz-menu-selected-bg-color: hsla(216, 50%, 30%, .6);
     --wiz-menu-icon-button-hover-bg-color: hsla(216, 50%, 30%, .6);
@@ -365,6 +367,9 @@
   .I0LFzc .U3NBjf .iZmoSe, .I0LFzc .aEUhWd .cF0Lnd, .I0LFzc .JRtysb svg, .Rejkgd .PCdOIb {
     color: var(--icon-color);
     fill: var(--icon-color);
+  }
+  .U8d2H {
+    font-size: .75rem;
   }
 /* End of userscript code */
 }
