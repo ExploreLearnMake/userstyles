@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.0.2
+@version      1.0.3
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -294,53 +294,58 @@
     color-scheme: dark;
     --adopt-shell-color: hsl(216, 29%, 15%);
     --primary-text-color: hsl(216, 5%, 85%);
-    --secondary-text-color: hsla(216, 5%, 85%, .8);
+    --secondary-text-color: hsl(216deg 5% 85% / .8);
     --primary-line-color: hsl(216, 62%, 61%);
     --background-color: hsl(216, 29%, 15%);
     --secondary-background-color: hsl(216, 15%, 25%);
     --header-text-color: hsl(216, 34%, 95%);
     --hint-text-color: hsl(216, 10%, 80%);
     --icon-color: hsl(216, 34%, 95%);
-    --icon-color2: hsla(216, 29%, 15%, .7);
+    --icon-color2: hsl(216deg 29% 15% / .7);
     --primary-app-color: hsl(216, 100%, 82%);
     --dialog-bg-color: hsl(216, 50%, 30%);
-    --dialog-highlighted-bg-color: hsla(216, 34%, 95%, .20);
+    --dialog-highlighted-bg-color: hsl(216deg 34% 95% / .2);
     --postbar-button-hover-icon-color: hsl(216, 34%, 95%);
-    --postbar-button-hover-background-color: hsla(216, 34%, 95%, .20);
+    --postbar-button-hover-background-color: hsl(216deg 34% 95% / .2);
     --postbar-button-open-icon-color: hsl(216, 78%, 85%);
     --message-inline-monospace-bg-color: hsl(216deg 29% 25%);
     --message-inline-line-color: hsl(216deg 5% 55%);
     --wiz-menu-icon-button-focus-bg-color: hsl(216, 50%, 30%);
     --wiz-menu-selected-bg-color: hsla(216, 50%, 30%, .6);
-    --wiz-menu-icon-button-hover-bg-color: hsla(216, 50%, 30%, .6);
-    --wiz-menu-icon-button-focus-hover-bg-color: hsla(216, 50%, 30%, .6);
-    --wiz-menu-icon-button-pressed-bg-color: hsla(216, 50%, 30%, .6);
+    --wiz-menu-icon-button-hover-bg-color: hsl(216deg 50% 30% / .6);
+    --wiz-menu-icon-button-focus-hover-bg-color: hsl(216deg 50% 30% / .6);
+    --wiz-menu-icon-button-pressed-bg-color: hsl(216deg 50% 30% / .6);
     --button-text-color: hsl(216, 100%, 74%);
-    --button-text-hover-bg-color: hsla(216, 50%, 30%, .6);
+    --button-text-hover-bg-color: hsl(216deg 50% 30% / .6);
     --button-text-hover-color: hsl(216, 100%, 74%);
-    --button-filled-bg-color: hsla(216, 100%, 82%, .4);
-    --button-filled-hover-bg-color: hsla(216, 100%, 82%, .6);
-    --button-text-focus-bg-color: hsla(216, 50%, 30%, .6);
+    --button-filled-bg-color: hsl(216deg 100% 82% / .4);
+    --button-filled-hover-bg-color: hsl(216deg 100% 82% / .6);
+    --button-text-focus-bg-color: hsl(216deg 50% 30% / .6);
     --button-text-focus-color: hsl(216, 100%, 74%);
-    --button-text-focus-hover-bg-color: hsla(216, 50%, 30%, .6);
+    --button-text-focus-hover-bg-color: hsl(216deg 50% 30% / .6);
     --button-text-focus-hover-color: hsl(216, 100%, 74%);
-    --button-text-pressed-bg-color: rgba(26,115,232,0.161);
+    --button-text-pressed-bg-color: rgb(26 115 232 / 0.161);
     --button-text-pressed-color: #174ea6;
-    --chip-bg-color: hsla(216, 50%, 30%, .1);
-    --chip-title-bg-color: hsla(216, 50%, 30%, .6);
-    --chip-border-color: hsla(216, 50%, 30%, 4);
-    --chip-subtitle-color: hsla(216, 5%, 85%, .7);
-    --gifpicker-tagbar-color: hsl(216, 5%, 85%);
+    --chip-bg-color: hsl(216deg 50% 30% / .1);
+    --chip-title-bg-color: hsl(216deg 50% 30% / .6);
+    --chip-border-color: hsl(216deg 50% 30% / .4);
+    --chip-subtitle-color: hsl(216deg 5% 85% / .7);
+    --gifpicker-tagbar-color: hsl(216deg 5% 85%);
     --gifpicker-tagbar-selected-bg-color: hsl(265, 92%, 95%);
-    --gifpicker-tagbar-hover-bg-color: hsla(265, 92%, 95%, .85);
+    --gifpicker-tagbar-hover-bg-color: hsl(265deg 92% 95% / .85);
     --gifpicker-tagbar-selected-border-color: hsl(265, 100%, 80%);
     --gifpicker-tagbar-selected-color: hsl(265, 90%, 36%);
     --gifpicker-btn-open-bg-color: hsl(216, 98%, 60%);
     --gifpicker-scroll-btn-focus-bg-color: hsl(11, 95%, 49%);
     --gifpicker-scroll-btn-focus-border: none;
-    --postbar-overlay-main-color: hsla(216, 29%, 15%,.7);
+    --postbar-overlay-main-color: hsl(216deg 29% 15% / .7);
     --surface-compose-font-color: hsl(216, 29%, 15%);
     --postbar-button-icon-color: var(--icon-color2);
+    --reply-panel-open-background-color: hsl(216deg 30% 8%);
+    --reply-panel-open-timestamp-color: hsl(216deg 5% 85% / .7);
+    --threaded-spaces-description-color: var(--reply-panel-open-timestamp-color);
+    --threaded-spaces-panel-button-background-hover-color: var(--background-color);
+    --threaded-spaces-topbar-header-text: var(--primary-text-color);
   }
   
   /* textbox background */
