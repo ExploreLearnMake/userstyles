@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.0.3
+@version      1.0.4
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -346,8 +346,9 @@
     --threaded-spaces-description-color: var(--reply-panel-open-timestamp-color);
     --threaded-spaces-panel-button-background-hover-color: var(--background-color);
     --threaded-spaces-topbar-header-text: var(--primary-text-color);
+    --threaded-spaces-components-background-color: var(--background-color);
   }
-  
+
   /* textbox background */
   .XganBc.eLNT1d {
     background: var(--secondary-background-color);
