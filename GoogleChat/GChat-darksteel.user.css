@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.0.4
+@version      1.0.5
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -85,7 +85,7 @@
     --surface-compose-box-color: #f1f3f4;
     --surface-compose-font-color: #3c4043;
     --surface-reaction-text-color: #5f6368;
-    --surface-unread-text-color: #1a73e8;
+  --surface-unread-text-color: #1a73e8;
     --dividers-color: #dadce0;
     --tertiary-hint-text-color: #5f6368;
     --chip-hairline-color: #dadce0;
@@ -339,7 +339,8 @@
     --gifpicker-scroll-btn-focus-bg-color: hsl(11, 95%, 49%);
     --gifpicker-scroll-btn-focus-border: none;
     --postbar-overlay-main-color: hsl(216deg 29% 15% / .7);
-    --surface-compose-font-color: hsl(216, 29%, 15%);
+    --surface-compose-font-color: hsl(216deg 29% 15%);
+    --surface-unread-text-color: hsl(216deg 29% 85%);
     --postbar-button-icon-color: var(--icon-color2);
     --reply-panel-open-background-color: hsl(216deg 30% 8%);
     --reply-panel-open-timestamp-color: hsl(216deg 5% 85% / .7);
@@ -347,6 +348,7 @@
     --threaded-spaces-panel-button-background-hover-color: var(--background-color);
     --threaded-spaces-topbar-header-text: var(--primary-text-color);
     --threaded-spaces-components-background-color: var(--background-color);
+    --threaded-spaces-threads-button-color: hsl(216deg 30% 35%);
   }
 
   /* textbox background */
@@ -376,6 +378,11 @@
   }
   .U8d2H {
     font-size: .75rem;
+  }
+/* For chat button   */
+  .oG5Srb .RveJvd.RveJvd {
+    color: var(--surface-unread-text-color);
+    fill: var(--surface-unread-text-color);
   }
 /* End of userscript code */
 }
