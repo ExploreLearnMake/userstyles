@@ -297,9 +297,9 @@
     --secondary-text-color: hsl(216deg 5% 85% / .8);
     --primary-line-color: hsl(216, 62%, 61%);
     --background-color: hsl(216, 29%, 15%);
-    --secondary-background-color: hsl(216, 15%, 25%);
-    --header-text-color: hsl(216, 34%, 95%);
-    --hint-text-color: hsl(216, 10%, 80%);
+    --secondary-background-color: hsl(216deg 15% 25%);
+    --header-text-color: hsl(216deg 34% 95%);
+    --hint-text-color: hsl(216deg 10% 80%);
     --icon-color: hsl(216, 34%, 95%);
     --icon-color2: hsl(216deg 29% 15% / .7);
     --primary-app-color: hsl(216, 100%, 82%);
@@ -350,6 +350,9 @@
     --threaded-spaces-components-background-color: var(--background-color);
     --threaded-spaces-threads-button-color: hsl(216deg 30% 35%);
     --gm3-color-on-surface: var(--primary-text-color);
+    --gm3-color-on-surface-variant: hsl(216deg 5% 85% / .8);
+    --gm3-color-tertiary: hsl(140deg 67% 41%);
+    --member-management-secondary-text-color: var(--gm2-color-on-surface-variant);
   }
 
   /* textbox background */
