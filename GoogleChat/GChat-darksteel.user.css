@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.0.7
+@version      1.0.8
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -326,6 +326,7 @@
     --button-text-focus-hover-color: hsl(216, 100%, 74%);
     --button-text-pressed-bg-color: rgb(26 115 232 / 0.161);
     --button-text-pressed-color: #174ea6;
+    --button-hover-color: hsl(215deg 29% 38%);
     --chip-bg-color: hsl(216deg 50% 30% / .1);
     --chip-title-bg-color: hsl(216deg 50% 30% / .6);
     --chip-border-color: hsl(216deg 50% 30% / .4);
@@ -346,6 +347,7 @@
     --reply-panel-open-timestamp-color: hsl(216deg 5% 85% / .7);
     --threaded-spaces-description-color: var(--reply-panel-open-timestamp-color);
     --threaded-spaces-panel-button-background-hover-color: var(--background-color);
+    --threaded-spaces-panel-button-color: hsl(216deg 100% 82%);
     --threaded-spaces-topbar-header-text: var(--primary-text-color);
     --threaded-spaces-components-background-color: var(--background-color);
     --threaded-spaces-threads-button-color: hsl(216deg 30% 35%);
@@ -353,6 +355,7 @@
     --gm3-color-on-surface-variant: hsl(216deg 5% 85% / .8);
     --gm3-color-tertiary: hsl(140deg 67% 41%);
     --member-management-secondary-text-color: var(--gm2-color-on-surface-variant);
+    --tab-switcher-btn-color: hsl(216deg 100% 82% / .7);
   }
 
   /* textbox background */
