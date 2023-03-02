@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.0.8
+@version      1.0.9
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -327,6 +327,10 @@
     --button-text-pressed-bg-color: rgb(26 115 232 / 0.161);
     --button-text-pressed-color: #174ea6;
     --button-hover-color: hsl(215deg 29% 38%);
+    --button-follow-bg-color: hsl(215deg 29% 38%);
+    --button-follow-border-color: hsl(215deg 35% 55%);
+    --button-follow-color: hsl(216deg 100% 82%);
+   /* --mute-toggle-gradient: linear-gradient(90deg, var(--background-color), var(--button-follow-bg-color) 50%);*/
     --chip-bg-color: hsl(216deg 50% 30% / .1);
     --chip-title-bg-color: hsl(216deg 50% 30% / .6);
     --chip-border-color: hsl(216deg 50% 30% / .4);
@@ -385,6 +389,9 @@
   }
   .U8d2H {
     font-size: .75rem;
+  }
+  .yg4pvb:before {
+    background: none;
   }
 /* For chat button   */
   .oG5Srb .RveJvd.RveJvd {
