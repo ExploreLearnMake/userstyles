@@ -349,6 +349,7 @@
     --threaded-spaces-topbar-header-text: var(--primary-text-color);
     --threaded-spaces-components-background-color: var(--background-color);
     --threaded-spaces-threads-button-color: hsl(216deg 30% 35%);
+    --gm3-color-on-surface: var(--primary-text-color);
   }
 
   /* textbox background */
@@ -383,6 +384,9 @@
   .oG5Srb .RveJvd.RveJvd {
     color: var(--surface-unread-text-color);
     fill: var(--surface-unread-text-color);
+  }
+  .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb {
+    color: var(--primary-text-color);
   }
 /* End of userscript code */
 }
