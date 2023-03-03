@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.1.1
+@version      1.1.2
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -362,7 +362,6 @@
     --tab-switcher-btn-color: hsl(216deg 100% 82% / .7);
     --smart-reply-btn-bg-color: hsl(215deg 29% 25%);
     --smart-reply-line-color: hsl(215deg 35% 55%);
-    --primary-app-color: hsl(216deg 100% 82%);
     --smart-reply-btn-active-border: var(--smart-reply-line-color);
     --smart-reply-btn-active-bg-color: hsl(215deg 29% 38%);
   }
