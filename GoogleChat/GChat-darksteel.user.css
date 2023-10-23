@@ -308,7 +308,6 @@
     --postbar-button-hover-icon-color: hsl(216, 34%, 95%);
     --postbar-button-hover-background-color: hsl(216deg 34% 95% / .2);
     --postbar-button-open-icon-color: hsl(216, 78%, 85%);
-    --postbar-button-icon-color: var(--icon-color);
     --message-inline-monospace-bg-color: hsl(216deg 29% 25%);
     --message-inline-line-color: hsl(216deg 5% 55%);
     --wiz-menu-icon-button-focus-bg-color: hsl(216, 50%, 30%);
@@ -347,7 +346,7 @@
     --postbar-overlay-main-color: hsl(216deg 29% 15% / .7);
     --surface-compose-font-color: hsl(216deg 29% 15%);
     --surface-unread-text-color: hsl(216deg 29% 85%);
-    --postbar-button-icon-color: var(--icon-color2);
+    --postbar-button-icon-color: var(--icon-color);
     --reply-panel-open-background-color: hsl(216deg 30% 8%);
     --reply-panel-open-timestamp-color: hsl(216deg 5% 85% / .7);
     --threaded-spaces-description-color: var(--reply-panel-open-timestamp-color);
