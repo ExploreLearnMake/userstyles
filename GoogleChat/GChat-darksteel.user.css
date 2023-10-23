@@ -308,6 +308,7 @@
     --postbar-button-hover-icon-color: hsl(216, 34%, 95%);
     --postbar-button-hover-background-color: hsl(216deg 34% 95% / .2);
     --postbar-button-open-icon-color: hsl(216, 78%, 85%);
+    --postbar-button-icon-color: var(--icon-color);
     --message-inline-monospace-bg-color: hsl(216deg 29% 25%);
     --message-inline-line-color: hsl(216deg 5% 55%);
     --wiz-menu-icon-button-focus-bg-color: hsl(216, 50%, 30%);
@@ -364,6 +365,12 @@
     --smart-reply-line-color: hsl(215deg 35% 55%);
     --smart-reply-btn-active-border: var(--smart-reply-line-color);
     --smart-reply-btn-active-bg-color: hsl(215deg 29% 38%);
+    /* Styles the speech bubbles in the new chat */
+    --message-bubbles-background-color: hsl(216deg 35% 25%);
+    --message-bubbles-author-background-color: hsl(216deg 55% 30%);
+    --message-bubbles-author-font-color: hsl(216deg 34% 95%);
+    --message-bubbles-font-color: hsl(216deg 34% 95%);
+    --date-divider-color: var(--primary-line-color);
   }
 
   /* textbox background */
