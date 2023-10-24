@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Chat Dark Blue Steel Theme
 @namespace    google.com chat
-@version      1.1.4
+@version      1.1.5
 @description  Give Google Chat and Spaces a dark blue steel theme
 @updateURL    https://github.com/ExploreLearnMake/userstyles/raw/main/GoogleChat/GChat-darksteel.user.css
 @supportURL   https://github.com/ExploreLearnMake/userstyles/issues
@@ -364,12 +364,14 @@
     --smart-reply-line-color: hsl(215deg 35% 55%);
     --smart-reply-btn-active-border: var(--smart-reply-line-color);
     --smart-reply-btn-active-bg-color: hsl(215deg 29% 38%);
+    --stream-container-background-color: var(--background-color);
     /* Styles the speech bubbles in the new chat */
     --message-bubbles-background-color: hsl(216deg 35% 25%);
     --message-bubbles-author-background-color: hsl(216deg 55% 30%);
     --message-bubbles-author-font-color: hsl(216deg 34% 95%);
     --message-bubbles-font-color: hsl(216deg 34% 95%);
     --date-divider-color: var(--primary-line-color);
+    --quoted-message-bg-color: hsl(216deg 15% 85%);
   }
 
   /* textbox background */
@@ -410,6 +412,25 @@
   }
   .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb {
     color: var(--primary-text-color);
+  }
+  /* Needed to override the inline variables */
+  .cmEq8b, .wdoEHc {
+    --message-bubbles-author-background-color: hsl(216deg 55% 30%);
+    --message-bubbles-background-color: hsl(216deg 35% 25%);
+    /*--message-highlight-bg-color: initial;
+    --message-bubbles-anchor-border-color: var(--gm3-color-outline);
+    --message-bubbles-author-anchor-border-color: var(--gm3-color-primary);
+    --message-bubbles-font-color: var(--gm3-color-on-surface);
+    --message-bubbles-tombstone-font-color: var(--gm3-color-outline);
+    --message-bubbles-private-background-color: var(--gm3-color-tertiary-container);
+    --message-bubbles-hover-background-color: var(--gm3-color-on-background);
+    --message-bubbles-hover-border-color: #e1e1e1;
+    --message-bubbles-author-hover-border-color: #dbe7fb;
+    --message-bubbles-author-hover-background-color: var(--gm3-color-primary);
+    --message-bubbles-author-font-color: var(--gm3-color-on-surface);*/
+   }
+  .E4325d {
+    color: hsl(216deg 15% 20%);
   }
 /* End of userscript code */
 }
